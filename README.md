@@ -1,5 +1,13 @@
 # caibird-demo
 
+# 安装pnpm
+
+    npm i -g pnpm
+
+# 安装项目
+
+    pnpm i
+
 # 启动
 
     npm start

@@ -1,18 +1,18 @@
 # caibird-demo
 
-# 安装pnpm
+## 安装pnpm
 
     npm i -g pnpm
 
-# 安装项目
+## 安装项目
 
     pnpm i
 
-# 启动
+## 启动
 
     npm start
 
-# windows下启动
+## windows下启动
 
 先执行`npm run tsc && npm run server` 
 

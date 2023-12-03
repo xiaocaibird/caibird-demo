@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "lib": ["ESNext"],
+    },
+    "include": [
+        "./server",
+        "./public",
+        "./isomorphism"
+    ],
+    "exclude": [
+        "./isomorphism/**/*.public.*",
+        "./isomorphism/**/*.client.*",
+    ],
+    "extends": "./tsconfig.json"
+}

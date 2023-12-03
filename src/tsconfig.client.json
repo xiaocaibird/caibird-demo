@@ -1,0 +1,12 @@
+{
+    "include": [
+        "./client",
+        "./public",
+        "./isomorphism"
+    ],
+    "exclude": [
+        "./isomorphism/**/*.public.*",
+        "./isomorphism/**/*.server.*",
+    ],
+    "extends": "./tsconfig.json"
+}

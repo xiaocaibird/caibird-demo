@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "rootDir": ".",
+        "noEmit": true,
+        "types": ["node"],
+        "lib": ["DOM", "ESNext"],
+    },
+    "include": [
+        ".",
+    ],
+    "exclude": [
+        "./isomorphism/**/*.client.*",
+        "./isomorphism/**/*.server.*",
+    ],
+    "extends": "../configs/tsconfig.json"
+}

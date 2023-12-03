@@ -2,7 +2,7 @@ import { ApiService } from 'caibird/client';
 
 import { CONFIGS, KEYS } from '../public/consts';
 
-const apiService = new ApiService<CustomGlobalType.Controllers>({
+const apiService = new ApiService<CaibirdGlobal.Controllers>({
     prefix: CONFIGS.Prefix,
     transformGetMethodJsonData: {
         enabled: true,

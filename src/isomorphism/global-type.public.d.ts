@@ -1,6 +1,6 @@
 import type * as _Controllers from '../server/constrollers';
 declare global {
-    namespace CustomGlobalType {
+    namespace CaibirdGlobal {
         type Controllers = typeof _Controllers;
     }
 }

@@ -1,3 +1,3 @@
-declare namespace CustomGlobalType {
+declare namespace CaibirdGlobal {
     type Controllers = any;
 }

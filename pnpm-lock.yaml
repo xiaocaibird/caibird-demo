@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   caibird:
-    specifier: 4.0.0-rc.5
-    version: 4.0.0-rc.5(@types/koa@2.13.12)
+    specifier: 4.0.0-rc.8
+    version: 4.0.0-rc.8(@types/koa@2.13.12)
   koa:
     specifier: 2.14.2
     version: 2.14.2
@@ -989,8 +989,8 @@ packages:
       ylru: 1.3.2
     dev: false
 
-  /caibird@4.0.0-rc.5(@types/koa@2.13.12):
-    resolution: {integrity: sha512-HRZxCnWy8eUPq4uOnIS5zHjbwLogDWcOdfWUqKq9DGVsWIvO78rIXX/XLGju8KhPrv1aSrEQwgDnnGOjgsTS3Q==}
+  /caibird@4.0.0-rc.8(@types/koa@2.13.12):
+    resolution: {integrity: sha512-4rbSJrnfxY7FI8M67gifihCp8J9kBoGxF2yW9sJqVOc5d4rKLJrQAo3sV3IwlPY8zR25GVLiYp3za5rua8HXRQ==}
     dependencies:
       '@koa/router': 12.0.1
       '@ladjs/koa-views': 9.0.0(@types/koa@2.13.12)(lodash@4.17.21)

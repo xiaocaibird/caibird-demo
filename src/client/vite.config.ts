@@ -13,6 +13,7 @@ export default async () => {
             swc.vite({
                 tsconfigFile: path.join(root, '../tsconfig.client.json'),
                 jsc: {
+                    target: 'esnext',
                     parser: {
                         syntax: 'typescript',
                         tsx: false,

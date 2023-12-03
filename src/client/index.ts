@@ -14,8 +14,8 @@ const fn = async () => {
     const res1 = await apiService.call.Test.getConfig({ obj: { a: '11', b: 0 } }, { httpMethod: 'GET' });
     const res2 = await apiService.call.Test.getConfig({ obj: { a: '22', b: 0 } }, { isRaw: true });
 
-    console.log(res1);
-    console.log(res2);
+    console.log('web res1:', res1);
+    console.log('web res2:', res2);
 }
 
 fn();

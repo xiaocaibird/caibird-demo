@@ -79,4 +79,13 @@
         "sourceMap": false,
         "useDefineForClassFields": true
     },
+    "ts-node": {
+        "files": true,
+        "require": [],
+        "compilerOptions": {
+            "verbatimModuleSyntax": false,
+            "moduleResolution": "Node",
+            "module": "CommonJS"
+        }
+    }
 }

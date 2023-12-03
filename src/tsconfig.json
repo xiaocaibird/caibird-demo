@@ -1,9 +1,11 @@
 {
     "compilerOptions": {
         "rootDir": ".",
+        "outDir": "../.tsc",
         "noEmit": true,
         "types": ["node"],
         "lib": ["DOM", "ESNext"],
+        "skipLibCheck": true 
     },
     "include": [
         ".",

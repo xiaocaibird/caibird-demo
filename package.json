@@ -4,7 +4,27 @@
   "description": "",
   "main": "",
   "scripts": {
+    "start": "npm run tsc && npm run dev",
+    "start-strict": "npm run tsc-strict && npm run dev",
+    "tsc": "tsc -p src/tsconfig.json",
+    "tsc-client": "tsc -p src/tsconfig.client.json",
+    "tsc-server": "tsc -p src/tsconfig.server.json",
+    "tsc-strict": "npm run tsc && npm run tsc-client && npm run tsc-server",
+    "dev": "npm run server & npm run client",
+    "client": "vite --config src/client/vite.config.ts",
+    "server": "kill-port 7001 && ts-node --project src/tsconfig.server.json src/server/index.ts"
   },
   "author": "caibird",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/koa": "2.13.12",
+    "@types/node": "20.10.2",
+    "typescript": "5.3.2",
+    "unplugin-swc": "1.4.3",
+    "vite": "5.0.4"
+  },
+  "dependencies": {
+    "koa": "2.14.2",
+    "tslib": "2.6.2"
+  }
 }

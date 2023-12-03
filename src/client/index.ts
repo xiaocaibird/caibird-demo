@@ -1,4 +1,4 @@
-import { ApiService } from '@futu/easy-ts/koa/client';
+import { ApiService } from 'caibird/client';
 
 import { CONFIGS, KEYS } from '../public/consts';
 

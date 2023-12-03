@@ -1,4 +1,4 @@
-import { Controller, httpMethodFilter, View, BaseController } from '@futu/easy-ts/koa';
+import { Controller, httpMethodFilter, View, BaseController } from 'caibird';
 
 @httpMethodFilter('POST')
 @Controller()

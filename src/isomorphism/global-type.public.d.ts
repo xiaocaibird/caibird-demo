@@ -1,6 +1,6 @@
-import type * as EasyTsControllers from '../server/constrollers';
+import type * as _Controllers from '../server/constrollers';
 declare global {
     namespace CustomGlobalType {
-        type Controllers = typeof EasyTsControllers;
+        type Controllers = typeof _Controllers;
     }
 }

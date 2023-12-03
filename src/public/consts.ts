@@ -5,5 +5,5 @@ export const CONFIGS = {
 } as const;
 
 export const KEYS = {
-    UrlJsonParamsKey: 'easytsurljsonparamskey',
+    UrlJsonParamsKey: 'caibirdurljsonparamskey',
 } as const;

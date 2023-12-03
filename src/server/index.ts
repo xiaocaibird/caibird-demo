@@ -1,12 +1,12 @@
 import Koa from 'koa';
-import { controllersRouter } from '@futu/easy-ts/koa';
+import { controllersRouter } from 'caibird';
 
 import * as Controllers from './constrollers';
 import { CONFIGS, KEYS } from '../public/consts';
 
 const app = new Koa();
 
-app.keys = ['easy-ts-koa-demo-app'];
+app.keys = ['caibird-koa-demo-app'];
 
 app.use(controllersRouter({
     Controllers,
